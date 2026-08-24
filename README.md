@@ -1,6 +1,7 @@
 # Airtable-Publication-Repository #
 
 *Backup script*
+
 An R script which backs up all tables of an Airtable base to csv files using an API. 
 
 It is recommended to fill out this script with your API info (obtainable from https://airtable.com/developers/web/api/authentication), then it run of from the terminal of your computer as a cron job, at a time of day when your computer is likely to be turned on. 
@@ -12,4 +13,5 @@ IE:
 When inputted in the cron tab, downlaods your base tables daily at 12pm.
 
 *Airtable Template*
+
 The example template is downloaded as an excel file from https://www.airtable.com/universe/expNULlrFct4YEIMC/mouse-colony-template and can be directly imported into airtable through that link. 
